@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Privacy Policy – LEXXIT Recorder</title>
+  <style>
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; max-width: 760px; margin: 60px auto; padding: 0 24px; color: #1a1a1a; line-height: 1.7; }
+    h1 { font-size: 28px; font-weight: 600; margin-bottom: 4px; }
+    .meta { color: #666; font-size: 14px; margin-bottom: 40px; }
+    h2 { font-size: 18px; font-weight: 600; margin-top: 36px; margin-bottom: 8px; }
+    p, li { font-size: 15px; color: #333; }
+    ul { padding-left: 20px; }
+    li { margin-bottom: 6px; }
+    a { color: #1a73e8; }
+    hr { border: none; border-top: 1px solid #e0e0e0; margin: 40px 0; }
+    .contact-box { background: #f8f9fa; border-radius: 8px; padding: 20px 24px; margin-top: 16px; }
+  </style>
+</head>
+<body>
+
+  <h1>Privacy Policy</h1>
+  <p class="meta">LEXXIT Recorder Chrome Extension &nbsp;·&nbsp; Last updated: April 23, 2025</p>
+
+  <p>This Privacy Policy describes how LEXXIT Recorder ("we", "our", or "the extension") handles information when you use our Chrome browser extension. We are committed to protecting your privacy and being transparent about our data practices.</p>
+
+  <h2>1. What LEXXIT Recorder does</h2>
+  <p>LEXXIT Recorder is a browser extension for QA engineers and developers. It records web interactions (clicks, inputs, navigation) and automatically generates reliable CSS and XPath test automation locators — no manual selector hunting required.</p>
+
+  <h2>2. Data we collect</h2>
+  <p>To provide its core functionality, the extension accesses the following on your device:</p>
+  <ul>
+    <li><strong>User activity</strong> — clicks, form inputs, dropdown selections, and page navigation events, captured during active recording sessions only.</li>
+    <li><strong>Website content</strong> — the DOM structure of pages you are actively testing, used to detect and rank CSS and XPath selectors.</li>
+  </ul>
+  <p>We do <strong>not</strong> collect personally identifiable information, health data, financial data, authentication credentials, personal communications, location data, or full web browsing history.</p>
+
+  <h2>3. How data is used</h2>
+  <p>All captured data is used solely to:</p>
+  <ul>
+    <li>Generate test automation locators (CSS selectors, XPath expressions)</li>
+    <li>Record and replay test scripts for Playwright, Selenium, and Cypress</li>
+    <li>Save your recorded test steps locally between sessions</li>
+  </ul>
+  <p>Data is processed locally in your browser. We do not build user profiles, serve ads, or use your data for any purpose unrelated to test automation.</p>
+
+  <h2>4. Data storage</h2>
+  <p>Recorded test steps and user preferences are stored locally using Chrome's built-in <code>storage</code> API. This data stays on your device and is not transmitted to external servers unless you explicitly export or share a test script.</p>
+
+  <h2>5. Data sharing</h2>
+  <p>We do not sell, rent, or transfer your data to third parties. We do not share data outside of the approved use cases defined in the <a href="https://developer.chrome.com/docs/webstore/program-policies/" target="_blank">Chrome Web Store Developer Program Policies</a>.</p>
+
+  <h2>6. Permissions explained</h2>
+  <ul>
+    <li><strong>activeTab</strong> — reads the current tab's DOM to detect interactive elements for locator generation.</li>
+    <li><strong>tabs</strong> — monitors tab state to correctly sequence recorded steps across page loads.</li>
+    <li><strong>scripting</strong> — injects content scripts to capture user interactions during recording.</li>
+    <li><strong>storage</strong> — saves test steps and preferences locally on your device.</li>
+    <li><strong>webNavigation</strong> — tracks navigation events so test steps are ordered correctly.</li>
+    <li><strong>contextMenus</strong> — adds a right-click option to start or stop recording from any page.</li>
+    <li><strong>Host permissions</strong> — required to operate on any website you choose to test.</li>
+  </ul>
+
+  <h2>7. Children's privacy</h2>
+  <p>LEXXIT Recorder is intended for professional use by developers and QA engineers. It is not directed at children under 13, and we do not knowingly collect data from children.</p>
+
+  <h2>8. Changes to this policy</h2>
+  <p>We may update this Privacy Policy from time to time. Changes will be reflected by the "Last updated" date at the top of this page. Continued use of the extension after changes constitutes acceptance of the updated policy.</p>
+
+  <h2>9. Contact</h2>
+  <div class="contact-box">
+    <p style="margin:0;">If you have any questions about this Privacy Policy, please contact us at:<br/>
+    <strong>Email:</strong> <a href="mailto:privacy@lexxit.io">privacy@lexxit.io</a><br/>
+    <strong>Website:</strong> <a href="https://lexxit.io" target="_blank">lexxit.io</a></p>
+  </div>
+
+  <hr/>
+  <p style="font-size:13px; color:#999;">© 2025 LEXXIT. All rights reserved.</p>
+
+</body>
+</html>
